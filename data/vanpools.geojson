@@ -1,1 +1,752 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"url":"http://atlregional.github.io/vanpool-profiles/assets/img/vanpool.png","NAME":"Smyrna","ADDRESS1":"123 Main St"},"geometry":{"type":"Point","coordinates":[-84.48760986328125,33.87497640410958]}},{"type":"Feature","properties":{"url":"http://atlregional.github.io/vanpool-profiles/assets/img/vanpool.png","NAME":"Doraville","ADDRESS1":"123 Main St"},"geometry":{"type":"Point","coordinates":[-84.2376708984375,33.89321737944089]}},{"type":"Feature","properties":{"url":"http://atlregional.github.io/vanpool-profiles/assets/img/vanpool.png","NAME":"Snellville","ADDRESS1":"123 Main St"},"geometry":{"type":"Point","coordinates":[-84.0399169921875,33.84076406581977]}},{"type":"Feature","properties":{"url":"http://atlregional.github.io/vanpool-profiles/assets/img/vanpool.png","NAME":"Lawrenceville","ADDRESS1":"123 Main St"},"geometry":{"type":"Point","coordinates":[-84.00970458984374,33.97525348507592]}},{"type":"Feature","properties":{"url":"http://atlregional.github.io/vanpool-profiles/assets/img/vanpool.png","NAME":"Conyers","ADDRESS1":"123 Main St"},"geometry":{"type":"Point","coordinates":[-84.0509033203125,33.687781758439364]}},{"type":"Feature","properties":{"url":"http://atlregional.github.io/vanpool-profiles/assets/img/vanpool.png","NAME":"Douglasville","ADDRESS1":"123 Main St"},"geometry":{"type":"Point","coordinates":[-84.73480224609374,33.758598560812004]}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 37196,
+        "Unique ID1": "VR0016",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "2075 So. Hairston Road",
+        "Origin City": "Stone Mountain",
+        "Origin Zip": 30035,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "1050 Techwood Drive",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30318,
+        "Origin Departure Time4": 730,
+        "Destination Arrival Time4": 830,
+        "Destination Departure Time4": 1700,
+        "Origin Arrival Time4": 1800,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 9,
+        "Dest_Lon": -84.392067,
+        "Dest_Lat": 33.783485,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.196068,
+          33.730011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 38157,
+        "Unique ID1": "VR0031",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "100 Glenda Trce",
+        "Origin City": "Newnan",
+        "Origin Zip": 30265,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "One CNN Center",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30303,
+        "Origin Departure Time4": 700,
+        "Destination Arrival Time4": 800,
+        "Destination Departure Time4": 1700,
+        "Origin Arrival Time4": 1800,
+        "Transportation Management Area (TMA)": "Central Atlanta Progress",
+        "Capacity": 9,
+        "Dest_Lon": -84.393827,
+        "Dest_Lat": 33.758096,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.687121,
+          33.409899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 38255,
+        "Unique ID1": "VR0093",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "1911 Grayson Hwy",
+        "Origin City": "Grayson",
+        "Origin Zip": 30017,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "1050 Techwood Dr",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30045,
+        "Origin Departure Time4": 900,
+        "Destination Arrival Time4": 1000,
+        "Destination Departure Time4": 1900,
+        "Origin Arrival Time4": 2000,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 7,
+        "Dest_Lon": -84.392067,
+        "Dest_Lat": 33.783485,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9620439,
+          33.8974614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 31976,
+        "Unique ID1": "VR0104",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "3435 Centerville Highway",
+        "Origin City": "Snellville",
+        "Origin Zip": 30039,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "1050 Techwood Drive",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30318,
+        "Origin Departure Time4": 800,
+        "Destination Arrival Time4": 900,
+        "Destination Departure Time4": 1800,
+        "Origin Arrival Time4": 1900,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 7,
+        "Dest_Lon": -84.392067,
+        "Dest_Lat": 33.783485,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.043367,
+          33.8060964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 31978,
+        "Unique ID1": "VR0105",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "4000 Mt Zion Pkwy",
+        "Origin City": "Stockbridge",
+        "Origin Zip": 30281,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "One CNN Center",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30303,
+        "Origin Departure Time4": 705,
+        "Destination Arrival Time4": 800,
+        "Destination Departure Time4": 1710,
+        "Origin Arrival Time4": 1800,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 7,
+        "Dest_Lon": -84.393827,
+        "Dest_Lat": 33.758096,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.143669,
+          33.5064613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 32038,
+        "Unique ID1": "VR0110",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "1911 Grayson Hwy",
+        "Origin City": "Grayson",
+        "Origin Zip": 30017,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "1050 Techwood Drive",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30318,
+        "Origin Departure Time4": 700,
+        "Destination Arrival Time4": 800,
+        "Destination Departure Time4": 1700,
+        "Origin Arrival Time4": 1800,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 9,
+        "Dest_Lon": -84.392067,
+        "Dest_Lat": 33.783485,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9620439,
+          33.8974614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 38643,
+        "Unique ID1": "VR0111",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "2950 Chapel Hill Road",
+        "Origin City": "Douglasville",
+        "Origin Zip": 30135,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "1050 Techwood Drive",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30318,
+        "Origin Departure Time4": 700,
+        "Destination Arrival Time4": 800,
+        "Destination Departure Time4": 1700,
+        "Origin Arrival Time4": 1800,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 7,
+        "Dest_Lon": -84.392067,
+        "Dest_Lat": 33.783485,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7358868,
+          33.726071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 39448,
+        "Unique ID1": "VR0112",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "3930 Lawrenceville Highway",
+        "Origin City": "Lilburn",
+        "Origin Zip": 30047,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "One CNN Center",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30303,
+        "Origin Departure Time4": 700,
+        "Destination Arrival Time4": 800,
+        "Destination Departure Time4": 1700,
+        "Origin Arrival Time4": 1800,
+        "Transportation Management Area (TMA)": "Central Atlanta Progress",
+        "Capacity": 7,
+        "Dest_Lon": -84.3947758,
+        "Dest_Lat": 33.757916,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1111001,
+          33.9057038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 39425,
+        "Unique ID1": "VR0114",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "2730 GA 155 South",
+        "Origin City": "Locust Grove",
+        "Origin Zip": 30248,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "One CNN Center",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30303,
+        "Origin Departure Time4": 630,
+        "Destination Arrival Time4": 730,
+        "Destination Departure Time4": 1630,
+        "Origin Arrival Time4": 1730,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 7,
+        "Dest_Lon": -84.392067,
+        "Dest_Lat": 33.783485,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2012666,
+          33.2795099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 32828,
+        "Unique ID1": "VR0130",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "5900 Sugarloaf Pky.",
+        "Origin City": "Lawrenceville",
+        "Origin Zip": 30043,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "One CNN Center",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30303,
+        "Origin Departure Time4": 700,
+        "Destination Arrival Time4": 800,
+        "Destination Departure Time4": 1700,
+        "Origin Arrival Time4": 1800,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 9,
+        "Dest_Lon": -84.393827,
+        "Dest_Lat": 33.758096,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.078528,
+          33.9813509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 32914,
+        "Unique ID1": "VR0132",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "Henley Place",
+        "Origin City": "Duluth",
+        "Origin Zip": 30097,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "1050 Techwood Drive",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30318,
+        "Origin Departure Time4": 700,
+        "Destination Arrival Time4": 830,
+        "Destination Departure Time4": 1700,
+        "Origin Arrival Time4": 1800,
+        "Transportation Management Area (TMA)": "Central Atlanta Progress",
+        "Capacity": 9,
+        "Dest_Lon": -84.390667,
+        "Dest_Lat": 33.761149,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1369627,
+          34.0539254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 33851,
+        "Unique ID1": "VR0141",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "Richard Sailors/Florence Rd",
+        "Origin City": "Powder Springs",
+        "Origin Zip": 30127,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "1050 Techwood Dr",
+        "Desination City": "Altanta",
+        "Destination Zip": 30318,
+        "Origin Departure Time4": 730,
+        "Destination Arrival Time4": 830,
+        "Destination Departure Time4": 1730,
+        "Origin Arrival Time4": 1830,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 9,
+        "Dest_Lon": -84.392067,
+        "Dest_Lat": 33.783485,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7008368,
+          33.8682034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 33916,
+        "Unique ID1": "VR0142",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "232 Newnan Crossing Blvd E",
+        "Origin City": "Newnan",
+        "Origin Zip": 30265,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "1020 Techwood Dr",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30318,
+        "Origin Departure Time4": 800,
+        "Destination Arrival Time4": 900,
+        "Destination Departure Time4": 1800,
+        "Origin Arrival Time4": 1900,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 7,
+        "Dest_Lon": -84.392067,
+        "Dest_Lat": 33.783485,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7622586,
+          33.3917547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 34279,
+        "Unique ID1": "VR0148",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "2950 Chapel Hill Rd",
+        "Origin City": "Douglasville",
+        "Origin Zip": 30135,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "1050 Techwood Drive",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30318,
+        "Origin Departure Time4": 730,
+        "Destination Arrival Time4": 830,
+        "Destination Departure Time4": 1700,
+        "Origin Arrival Time4": 1800,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 9,
+        "Dest_Lon": -84.392067,
+        "Dest_Lat": 33.783485,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7358868,
+          33.726071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 34280,
+        "Unique ID1": "VR0149",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "3585 N Commerce Dr,",
+        "Origin City": "East Point",
+        "Origin Zip": 30344,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "1050 Techwood Drive",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30318,
+        "Origin Departure Time4": 700,
+        "Destination Arrival Time4": 800,
+        "Destination Departure Time4": 1700,
+        "Origin Arrival Time4": 1800,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 9,
+        "Dest_Lon": -84.392067,
+        "Dest_Lat": 33.783485,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.504238,
+          33.6551184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 39462,
+        "Unique ID1": "VR0175",
+        "Terminated from last month, New, or Van Switch2": "Van Switch from 33908",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "1618 Hwy 138 ",
+        "Origin City": "Conyers",
+        "Origin Zip": 30013,
+        "Employer3": "US Air Force",
+        "Destination Address": "11th Street Bldg 660",
+        "Desination City": "Warner Robins",
+        "Destination Zip": 31098,
+        "Origin Departure Time4": 500,
+        "Destination Arrival Time4": 700,
+        "Destination Departure Time4": 1600,
+        "Origin Arrival Time4": 1800,
+        "Transportation Management Area (TMA)": "Clean Air Campaign",
+        "Capacity": 7,
+        "Dest_Lon": -83.5840783,
+        "Dest_Lat": 32.596465,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0155183,
+          33.6380917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 39340,
+        "Unique ID1": "VR0190",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "375 Rockbridge Road",
+        "Origin City": "Lithonia",
+        "Origin Zip": 30058,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "One CNN Center",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30303,
+        "Origin Departure Time4": 700,
+        "Destination Arrival Time4": 800,
+        "Destination Departure Time4": 1700,
+        "Origin Arrival Time4": 1800,
+        "Transportation Management Area (TMA)": "Central Atlanta Progress",
+        "Capacity": 7,
+        "Dest_Lon": -84.3947758,
+        "Dest_Lat": 33.757916,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1639399,
+          33.8830567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 36958,
+        "Unique ID1": "VR0198",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "10850 Abbotts Bridge Road",
+        "Origin City": "Johns Creek",
+        "Origin Zip": 30097,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "One CNN Center",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30303,
+        "Origin Departure Time4": 800,
+        "Destination Arrival Time4": 900,
+        "Destination Departure Time4": 1700,
+        "Origin Arrival Time4": 1800,
+        "Transportation Management Area (TMA)": "Central Atlanta Progress",
+        "Capacity": 7,
+        "Dest_Lon": -84.3947758,
+        "Dest_Lat": 33.757916,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1687092,
+          34.0301991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 39163,
+        "Unique ID1": "VR0226",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "8160 Mall Parkway",
+        "Origin City": "Lithonia",
+        "Origin Zip": 30058,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "101 Marietta Street",
+        "Desination City": "Atlanta",
+        "Destination Zip": 30303,
+        "Origin Departure Time4": 715,
+        "Destination Arrival Time4": 800,
+        "Destination Departure Time4": 1700,
+        "Origin Arrival Time4": 1800,
+        "Transportation Management Area (TMA)": "Central Atlanta Progress",
+        "Capacity": 7,
+        "Dest_Lon": -84.3920237,
+        "Dest_Lat": 33.7569369,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0893367,
+          33.6916492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 40278,
+        "Unique ID1": "VR0253",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "120 Penney Rd",
+        "Origin City": "Forest Park",
+        "Origin Zip": 30297,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "1050 Techwood Dr",
+        "Desination City": "Altanta",
+        "Destination Zip": 30318,
+        "Origin Departure Time4": 530,
+        "Destination Arrival Time4": 630,
+        "Destination Departure Time4": 1500,
+        "Origin Arrival Time4": 1600,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 9,
+        "Dest_Lon": -84.392067,
+        "Dest_Lat": 33.783485,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3880774,
+          33.6042822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 41619,
+        "Unique ID1": "VR0254",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "3512 Highway 138 SE",
+        "Origin City": "Stockbridge",
+        "Origin Zip": 30281,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "1050 Techwood Dr",
+        "Desination City": "Altanta",
+        "Destination Zip": 30318,
+        "Origin Departure Time4": 630,
+        "Destination Arrival Time4": 730,
+        "Destination Departure Time4": 1630,
+        "Origin Arrival Time4": 1730,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 7,
+        "Dest_Lon": -84.392067,
+        "Dest_Lat": 33.783485,
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2745648,
+          33.5491013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Provider": "vRide",
+        "Van Number": 40270,
+        "Unique ID1": "VR0255",
+        "Terminated from last month, New, or Van Switch2": "",
+        "Primary Driver Name": "Some Person",
+        "Primary Driver Email": "test@turner.com",
+        "Origin Address": "3512 Highway 138 SE",
+        "Origin City": "Stockbridge",
+        "Origin Zip": 30281,
+        "Employer3": "Turner Broadcasting",
+        "Destination Address": "1050 Techwood Dr",
+        "Desination City": "Altanta",
+        "Destination Zip": 30318,
+        "Origin Departure Time4": 730,
+        "Destination Arrival Time4": 830,
+        "Destination Departure Time4": 1730,
+        "Origin Arrival Time4": 1830,
+        "Transportation Management Area (TMA)": "Midtown Transportation Solutions",
+        "Capacity": 7,
+        "Dest_Lon": -84.392067,
+        "Dest_Lat": 33.783485
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.27432596683501,
+          33.548912617448785
+        ]
+      }
+    }
+  ]
+}

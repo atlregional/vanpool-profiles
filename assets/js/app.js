@@ -87,7 +87,7 @@ function syncSidebar() {
   theaters.eachLayer(function (layer) {
     if (map.hasLayer(theaterLayer)) {
       if (map.getBounds().contains(layer.getLatLng())) {
-        $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/theater.png"></td><td class="feature-name">' + layer.feature.properties.NAME + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+        $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/theater.png"></td><td class="feature-name">' + layer.feature.properties['Origin City'] + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
       }
     }
   });
@@ -109,24 +109,11 @@ function syncSidebar() {
 }
 
 /* Basemap Layers */
-var mapquestOSM = L.tileLayer("http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png", {
+var mapquestOSM = L.tileLayer("https://{s}.tiles.mapbox.com/v3/atlregional.tm2-basemap/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiYXRscmVnaW9uYWwiLCJhIjoiQmZ6d2tyMCJ9.oENm3NSf--qHrimdm9Vvdw", {
   maxZoom: 19,
-  subdomains: ["otile1", "otile2", "otile3", "otile4"],
   attribution: 'Tiles courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">. Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA.'
 });
-var mapquestOAM = L.tileLayer("http://{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg", {
-  maxZoom: 18,
-  subdomains: ["oatile1", "oatile2", "oatile3", "oatile4"],
-  attribution: 'Tiles courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a>. Portions Courtesy NASA/JPL-Caltech and U.S. Depart. of Agriculture, Farm Service Agency'
-});
-var mapquestHYB = L.layerGroup([L.tileLayer("http://{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg", {
-  maxZoom: 18,
-  subdomains: ["oatile1", "oatile2", "oatile3", "oatile4"]
-}), L.tileLayer("http://{s}.mqcdn.com/tiles/1.0.0/hyb/{z}/{x}/{y}.png", {
-  maxZoom: 19,
-  subdomains: ["oatile1", "oatile2", "oatile3", "oatile4"],
-  attribution: 'Labels courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">. Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA. Portions Courtesy NASA/JPL-Caltech and U.S. Depart. of Agriculture, Farm Service Agency'
-})]);
+
 
 /* Overlay Layers */
 var highlight = L.geoJson(null);
@@ -292,24 +279,36 @@ var theaters = L.geoJson(null, {
         iconAnchor: [12, 28],
         popupAnchor: [0, -25]
       }),
-      title: feature.properties.NAME,
+      title: feature.properties['Origin City'],
       riseOnHover: true
     });
   },
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
-      var content = '<img width="500" height="380" src="assets/img/vanpool.png"><table class="table table-striped table-bordered table-condensed">' + '<tr><th>Name</th><td>' + feature.properties.NAME + '</td></tr>' + '<tr><th>Phone</th><td>' + feature.properties.TEL + '</td></tr>' + '<tr><th>Address</th><td>' + feature.properties.ADDRESS1 + '</td></tr>' + '<tr><th>Website</th><td><a class="url-break" href="' + feature.properties.URL + '" target="_blank">' + feature.properties.URL + '</a></td></tr>' + '<table>';
+      var email = feature.properties['Primary Driver Email'].replace(/ /g,'');
+      var content = '<img width="500" height="380" src="assets/img/vanpool.png">'+
+      '<table class="table table-striped table-bordered table-condensed">' +
+        // '<tr><th>Origin</th><td>' + feature.properties['Origin City'] + '</td></tr>' +
+        '<tr><th>Destination</th><td>' + feature.properties['Destination Address'] + '</td></tr>' +
+        '<tr><th>Starting Address</th><td>' + feature.properties['Origin Address'] + ' ' + feature.properties['Origin City'] + ' ' + feature.properties['Origin Zip'] + '</td></tr>' +
+        '<tr><th>AM departure</th><td>' + feature.properties['Origin Departure Time4'] + '</td></tr>' +
+        '<tr><th>AM arrival</th><td>' + feature.properties['Destination Arrival Time4'] + '</td></tr>' +
+        '<tr><th>PM departure</th><td>' + feature.properties['Destination Departure Time4'] + '</td></tr>' +
+        '<tr><th>PM arrival</th><td>' + feature.properties['Origin Arrival Time4'] + '</td></tr>' +
+        '<tr><th>Website</th><td></td></tr>' +
+      '<table>' +
+      '<a role="button" class="btn btn-default url-break" href="mailto:' + email + '" target="_blank">' + 'Email ' + feature.properties['Primary Driver Name'] + '</a>';
       layer.on({
         click: function (e) {
-          $("#feature-title").html(feature.properties.NAME);
+          $("#feature-title").html(feature.properties['Origin City']);
           $("#feature-info").html(content);
           $("#featureModal").modal("show");
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
         }
       });
-      $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/theater.png"></td><td class="feature-name">' + layer.feature.properties.NAME + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+      $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/theater.png"></td><td class="feature-name">' + layer.feature.properties['Origin City'] + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
       theaterSearch.push({
-        name: layer.feature.properties.NAME,
+        name: layer.feature.properties['Origin City'],
         address: layer.feature.properties.ADDRESS1,
         source: "Theaters",
         id: L.stamp(layer),
@@ -472,10 +471,7 @@ if (document.body.clientWidth <= 767) {
 }
 
 var baseLayers = {
-  "Street Map": mapquestOSM,
-  "Aerial Imagery": mapquestOAM,
-  "Imagery with Streets": mapquestHYB
-};
+  "Street Map": mapquestOSM};
 
 var groupedOverlays = {
   "Points of Interest": {
